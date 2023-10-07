@@ -1,12 +1,17 @@
+/* Reset default styles and set font family */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Cinzel', serif
+  font-family: 'Cinzel', serif;
 }
+
+/* Set background color for the whole page */
 body {
   background-color: #fafafa;
 }
+
+/* Center content in a container */
 .home__container {
   display: flex;
   justify-content: center;
@@ -15,35 +20,41 @@ body {
   margin: 70px 20px;
 }
 
+/* Stylish heading styles */
 .heading {
-  font-size: 20px;
-  color: #2868ff;
+  font-size: 24px;
   font-weight: 500;
+  color: #2868ff;
   background-color: #e5ecfb;
   padding: 20px 15px;
-  padding-top: 20px;
   border-radius: 6px;
   margin: 5px;
 }
+
 .heading__sec {
   font-size: 65px;
   font-weight: 500;
   color: #000000;
 }
+
+/* Adjust margin for the first section */
 .first {
   margin-top: 40px;
 }
+
+/* Paragraph styles */
 .para {
-  margin: 50px;
+  margin: 20px;
   max-width: 800px;
   text-align: center;
   color: #000c7c;
-  font-size: 22px;
+  font-size: 18px;
 }
+
+/* Call to action button */
 .getStarted {
   font-size: 20px;
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
   align-items: center;
   background-color: #2667ff;
   color: white;
@@ -53,49 +64,39 @@ body {
   cursor: pointer;
   z-index: 100;
 }
-.getStarted :hover{
-  color: white;
+
+.getStarted:hover {
+  background-color: #1952d6;
 }
+
+/* Arrow icon next to the button */
 .arrowicon {
-  margin-left: 5px;
+  margin-left: 10px;
 }
+
+/* Icon styles */
 .icon {
   font-size: 50px;
 }
+
+/* Card section styles */
 .card__section {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
-.tri {
-  height: 70px;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
-  animation: spin 10s linear infinite;
-  position: absolute;
-  top: 80%;
-  left: 10%;
-  z-index: -1;
-}
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+/* Rotating triangles and donut */
+.tri,
 .donut {
-  height: 175px;
-  -webkit-animation: spin 10s linear infinite;
-  -moz-animation: spin 10s linear infinite;
+  height: 100px;
+  width: 100px;
   animation: spin 10s linear infinite;
   position: absolute;
-  top: 50%;
-  right: 5%;
   z-index: -1;
 }
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
@@ -105,83 +106,26 @@ body {
   }
 }
 
-.tri2 {
-  -webkit-animation-name: float-bob-x;
-  animation-name: float-bob-x;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  height: 350px;
+/* Floating animations for triangles */
+.tri2,
+.thread {
+  animation: float-bob-x 2s infinite linear;
+  height: 150px;
   position: absolute;
-  left: -10%;
-  top: 25%;
   z-index: -1;
 }
 
-.thread {
-  -webkit-animation-name: float-bob-x;
-  animation-name: float-bob-x;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  height: 75px;
-  position: absolute;
-  right: 10%;
-  z-index: -1;
-}
 @keyframes float-bob-x {
-  0% {
-    -webkit-transform: translateX(-20px);
+  0%, 100% {
     transform: translateX(-20px);
   }
   50% {
-    -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
-  100% {
-    -webkit-transform: translateX(-20px);
-    transform: translateX(-20px);
-  }
 }
+
+/* Gradient background for the whole page */
 body {
-  /* ff 3.6+ */
-  background: -moz-linear-gradient(
-    121deg,
-    rgba(251, 239, 228, 1) 15%,
-    rgba(255, 255, 255, 1) 41%
-  );
-
-  /* safari 5.1+,chrome 10+ */
-  background: -webkit-linear-gradient(
-    121deg,
-    rgba(251, 239, 228, 1) 15%,
-    rgba(255, 255, 255, 1) 41%
-  );
-
-  /* opera 11.10+ */
-  background: -o-linear-gradient(
-    121deg,
-    rgba(251, 239, 228, 1) 15%,
-    rgba(255, 255, 255, 1) 41%
-  );
-
-  /* ie 6-9 */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FFFFFF', endColorstr='#FBEFE4', GradientType=0 );
-
-  /* ie 10+ */
-  background: -ms-linear-gradient(
-    121deg,
-    rgba(251, 239, 228, 1) 15%,
-    rgba(255, 255, 255, 1) 41%
-  );
-
-  /* global 94%+ browsers support */
   background: linear-gradient(
     121deg,
     rgba(251, 239, 228, 1) 15%,
