@@ -31,10 +31,13 @@ body {
   margin: 5px;
 }
 
+/* Updated heading__sec with font style and color */
 .heading__sec {
   font-size: 65px;
   font-weight: 500;
   color: #000000;
+  font-style: italic; /* Added font style */
+  /* You can add more styles as needed */
 }
 
 /* Adjust margin for the first section */
@@ -42,13 +45,15 @@ body {
   margin-top: 40px;
 }
 
-/* Paragraph styles */
+/* Paragraph styles with font style and color */
 .para {
   margin: 20px;
   max-width: 800px;
   text-align: center;
-  color: #000c7c;
+  color: #FF5733; /* Change the color as desired */
   font-size: 18px;
+  font-style: italic; /* Added font style */
+  /* You can add more styles as needed */
 }
 
 /* Call to action button */
