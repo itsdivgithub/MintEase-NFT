@@ -31,12 +31,13 @@ body {
   margin: 5px;
 }
 
-/* Updated heading__sec with font style and color */
+/* Updated heading__sec with font style, color, font type, and reduced text size */
 .heading__sec {
-  font-size: 65px;
+  font-size: 45px; /* Reduced text size */
   font-weight: 500;
   color: #000000;
   font-style: italic; /* Added font style */
+  font-family: 'Arial', sans-serif; /* Changed font type */
   /* You can add more styles as needed */
 }
 
@@ -45,14 +46,15 @@ body {
   margin-top: 40px;
 }
 
-/* Paragraph styles with font style and color */
+/* Paragraph styles with font style, color, font type, and reduced text size */
 .para {
   margin: 20px;
   max-width: 800px;
   text-align: center;
   color: #FF5733; /* Change the color as desired */
-  font-size: 18px;
+  font-size: 16px; /* Reduced text size */
   font-style: italic; /* Added font style */
+  font-family: 'Times New Roman', serif; /* Changed font type */
   /* You can add more styles as needed */
 }
 
