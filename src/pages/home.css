@@ -37,7 +37,7 @@ body {
   font-weight: 500;
   color: #000000;
   font-style: italic; /* Added font style */
-  font-family: 'Arial', sans-serif; /* Changed font type */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Changed font type */
   /* You can add more styles as needed */
 }
 
@@ -49,12 +49,12 @@ body {
 /* Paragraph styles with font style, color, font type, and reduced text size */
 .para {
   margin: 20px;
-  max-width: 800px;
+  max-width: 900px;
   text-align: center;
-  color: #FF5733; /* Change the color as desired */
-  font-size: 16px; /* Reduced text size */
-  font-style: italic; /* Added font style */
-  font-family: 'Times New Roman', serif; /* Changed font type */
+  color: #d7e704; /* Change the color as desired */
+  font-size: 25px; /* Reduced text size */
+  font-style: normal; /* Added font style */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Changed font type */
   /* You can add more styles as needed */
 }
 
@@ -63,7 +63,7 @@ body {
   font-size: 20px;
   display: inline-flex;
   align-items: center;
-  background-color: #2667ff;
+  background-color: #26ff43;
   color: white;
   padding: 12px 35px;
   margin: 15px;
@@ -73,7 +73,7 @@ body {
 }
 
 .getStarted:hover {
-  background-color: #1952d6;
+  background-color: #65d619;
 }
 
 /* Arrow icon next to the button */
