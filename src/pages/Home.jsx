@@ -8,7 +8,7 @@ const Home = ()=>{
         <br/><br/>"MintEase"<br/>
         <br/>Thanks to Biconomy!!<br/>
         <br></br>
-        <img src='NoFuel.png' style={{width:780,height:700, marginTop:20}}></img>
+        <img src='NoFuel.png' style={{width:600,height:500, marginTop:10}}></img>
       </p>
       </div>
     );
