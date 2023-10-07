@@ -6,7 +6,7 @@ const Navbar = ()=>{
 
     return(
         <nav className="font-link">
-            <div className="logo">ZeroFee Tokens</div>
+            <div className="logo">MintEase</div>
             <div className="menu-list">
             <ul>
                 <NavLink exact to='/' activeClassName="active">
