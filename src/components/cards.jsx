@@ -17,7 +17,7 @@ const Cards = (props) =>{
                         contract.erc1155.claim(props.id, quantity)
                     }}
                     >
-                Wooaaa!! Mint NFT- Free Free
+                Mint NFT-Free
                 </Web3Button>
             </div>
         </div>
